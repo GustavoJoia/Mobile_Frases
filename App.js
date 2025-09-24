@@ -6,16 +6,16 @@ export default function App() {
 
   const [phrase,setPhrase] = useState('Opa')
   const [list,setList] = useState([
-  "Se nada der certo, pelo menos você tentou… abrir o pacote errado.",
-  "Acredite em você, porque até o Wi-Fi às vezes conecta do nada.",
-  "Levante-se! A cama vai estar lá quando você voltar.",
-  "Se a vida te derrubar, aproveita e já procura uma moeda no chão.",
-  "Foco, força e… se der preguiça, amanhã você tenta de novo.",
-  "Siga seus sonhos, mesmo que eles só queiram dormir mais 5 minutinhos.",
-  "Nada é impossível… exceto abrir pote de azeitona sem ajuda.",
-  "Continue! Porque desistir dá mais trabalho explicar depois.",
-  "Você é forte, igual aquele cabo USB que aguenta anos de puxão.",
-  "A vida é curta, então sorria… antes que a bateria acabe."
+  "Vai que dá errado!",
+  "Sorte é treino.",
+  "Meta: sobreviver.",
+  "Amanhã eu começo.",
+  "Tá ruim, mas tá indo.",
+  "Segue o caos.",
+  "Só vai (ou não).",
+  "Motivado a desistir.",
+  "Confia no improviso.",
+  "Força, guerreirinho."
 ])
 
 
@@ -47,7 +47,6 @@ const style = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'space-around',
-    padding: 5
   },
   row:{
     display: 'flex',
@@ -67,7 +66,6 @@ const style = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 2,
     borderRadius: 5,
     width: 350,
     height: 140
